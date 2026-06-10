@@ -1,37 +1,61 @@
 nav {
-  display: flex;
-  justify-content: flex-end;
-  gap: 2rem;
   background-color: #ce1257;
-  height: 5ch;
-  align-items: center;
-  width: 100%;
-  flex-wrap: wrap;
+  width: 100dvw;
+  /* margin: 0;
+  top: 0; */
 }
 
 a {
+  display: flex;
   text-decoration: none;
   color: white;
-  margin-right: 2ch;
+  /* margin: 1ch; */
   font-family:
     "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
     Arial, sans-serif;
   font-weight: bold;
-  flex-shrink: 1;
+  align-items: center;
+  justify-content: center;
+  padding: 1ch;
+  margin: 0;
 }
 
 a:hover {
   font-size: larger;
   text-shadow: 1px 1px rgb(97, 95, 92);
+  border: solid 2px antiquewhite;
 }
 
-body {
-  color: #ce1257;
+@media (width >=600px) {
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #ce1257;
+    height: 5ch;
+    align-items: center;
+    width: 100dvw;
+  }
+}
+
+/* body {
+  color: #218380;
   margin-right: 2ch;
   font-family:
     "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
     Arial, sans-serif;
   font-weight: bold;
+} */
+
+body {
+  color: #218380;
+  margin-right: 2ch;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  /* top: 0; */
 }
 
 #whoAmI {
@@ -44,14 +68,44 @@ body {
   max-width: 15rem;
 }
 
-.gallup {
-  padding: 1ch;
+#gallup {
+  /* padding: 1ch 1ch 1ch 1ch; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1ch 1ch 0.5ch 1ch;
+  font-size: 3dvw;
 }
 
-#footer {
+#mission {
+  border-top: dotted 10px #ce1257;
+  margin: 1ch 0 0 0;
+  font-size: 3.5dvw;
+  padding: 2ch 2ch 0 2ch;
+}
+
+.footer {
   display: flex;
   text-align: center;
   justify-content: center;
+  border-top: dotted 10px #ce1257;
+  /* padding: 0ch 0 3ch 0; */
+  margin: 3ch 2ch 0 2ch;
+  flex-direction: column;
+}
+
+#bio {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border-top: dotted 10px #ce1257;
+  padding: 2ch 0 3ch 0;
+  margin: 2ch 2ch 1ch 2ch;
+  font-size: 3.5dvw;
+
+  /* border-top: dotted 10px #ce1257;
+  padding: 1ch 0 3ch 0;
+  margin: 1ch 2ch 1ch 2ch; */
 }
 
 #card {
@@ -65,6 +119,9 @@ img {
 }
 
 h1 {
-  font-size: 8dvw;
+  font-size: 9dvw;
   color: #218380;
+  padding: 0.5ch 0 0.5ch 0;
+  border-bottom: dotted 10px #ce1257;
+  margin: 0ch 1ch 0.75ch 1ch;
 }

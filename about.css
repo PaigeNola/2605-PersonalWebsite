@@ -110,5 +110,10 @@ h1 {
 }
 
 #last {
-  border-bottom: none;
+  display: flex;
+  max-width: 70%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 2ch 6ch;
 }
