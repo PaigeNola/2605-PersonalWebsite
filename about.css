@@ -1,0 +1,114 @@
+nav {
+  background-color: #ce1257;
+  width: 100dvw;
+  /* margin: 0;
+  top: 0; */
+}
+/* Use this for the media query for bigger screens */
+/* nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  background-color: #ce1257;
+  height: 5ch;
+  align-items: center;
+} */
+
+a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  /* margin: 1ch; */
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  padding: 1ch;
+  margin: 0;
+}
+
+a:hover {
+  font-size: larger;
+  text-shadow: 1px 1px rgb(97, 95, 92);
+  border: solid 2px antiquewhite;
+}
+
+#whoAmI {
+  text-align: left;
+  font-size: 4dvw;
+  margin: 0 0 0 5dvw;
+}
+
+#card {
+  display: flex;
+  max-width: 70%;
+  justify-content: center;
+  align-items: center;
+  border-bottom: dotted 10px #ce1257;
+  margin: auto;
+  padding: 2ch 6ch;
+
+  /* margin-top: 2rem; */
+  /* padding: 1ch 2ch 2ch 2ch;
+
+  margin: 1ch 2ch 0 2ch; */
+}
+
+img {
+  max-width: 60%;
+}
+
+/* #actor {
+  display: flex;
+  max-width: 70%;
+  justify-content: center;
+  border: solid black 1px;
+  margin: auto;
+  margin-top: 2rem;
+} */
+/* img {
+  max-width: 70%;
+} */
+
+#whoAmI {
+  text-align: left;
+  font-size: 4dvw;
+  margin: auto;
+}
+
+@media (width >=600px) {
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #ce1257;
+    height: 5ch;
+    align-items: center;
+    width: 100dvw;
+  }
+}
+
+body {
+  color: #218380;
+  margin-right: 2ch;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  /* top: 0; */
+}
+
+h1 {
+  font-size: 9dvw;
+  color: #218380;
+  padding: 0.5ch 0 0.5ch 0;
+  border-bottom: dotted 10px #ce1257;
+  margin: 0ch 1ch 1ch 1ch;
+}
+
+#last {
+  border-bottom: none;
+}

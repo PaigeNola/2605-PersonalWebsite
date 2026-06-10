@@ -1,0 +1,70 @@
+nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  background-color: #ce1257;
+  height: 5ch;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin-right: 2ch;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  font-weight: bold;
+  flex-shrink: 1;
+}
+
+a:hover {
+  font-size: larger;
+  text-shadow: 1px 1px rgb(97, 95, 92);
+}
+
+body {
+  color: #ce1257;
+  margin-right: 2ch;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  font-weight: bold;
+}
+
+#whoAmI {
+  text-align: right;
+  font-size: 4dvw;
+  margin: 0 0ch 0 5dvw;
+  background-color: #ce1257;
+  color: white;
+  padding: 2ch 1ch;
+  max-width: 15rem;
+}
+
+.gallup {
+  padding: 1ch;
+}
+
+#footer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+#card {
+  display: flex;
+  max-width: 90%;
+  justify-content: center;
+}
+
+img {
+  max-width: 50%;
+}
+
+h1 {
+  font-size: 8dvw;
+  color: #218380;
+}
